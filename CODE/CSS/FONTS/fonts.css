@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'DynaPuff';
+    src: url('DynaPuff-VariableFont_wdth,wght.woff2') format('woff2'),
+         url('DynaPuff-VariableFont_wdth,wght.woff') format('woff2');
+}
+
+@font-face {
+    font-family: 'Noto Kufi Arabic';
+    src: url('NotoKufiArabic-VariableFont_wght.woff2') format('woff'),
+         url('NotoKufiArabic-VariableFont_wght.woff') format('woff');
+}
+

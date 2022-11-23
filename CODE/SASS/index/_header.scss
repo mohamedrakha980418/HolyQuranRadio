@@ -1,0 +1,76 @@
+@import '../itemes';
+
+
+header{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    width: $width1;
+    height: 350px;
+
+    background: $color3;
+
+
+    div{
+        text-align: center;
+
+        img{
+            width: 150px;
+            height: 150px;
+            margin: 23px 1%;
+            
+        }
+
+        h1{
+            width: 100%;
+            margin-bottom: 20px;
+
+            color: $color1;
+
+            font-family: $title_Font;
+            font-size: $font_Size + 30px;
+            font-weight: bold;
+        }
+    }
+
+    p{
+        margin-bottom: 30px;
+
+        color: $color1;
+
+        font-family: $paragraph_font;
+        font-size: $font_Size;
+    }
+}
+
+
+
+//? media
+@media screen and (orientation:portrait) {
+    header{
+        width: 100%;
+
+        div{
+            img{
+                width: 200px;
+                height: 200px;
+
+                margin: 15px 1%;
+            }
+
+            h1{
+                font-size: $font_Size + 10px;
+            }
+        }
+
+        p{
+            font-size: $font_Size - 1px;
+        }
+    }
+
+
+
+
+}
