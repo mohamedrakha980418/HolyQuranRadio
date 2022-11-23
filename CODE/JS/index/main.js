@@ -1,11 +1,12 @@
 //? var
 //? class
 class Radio{
-    radioes_Name = [`القاهرة`,`السعودية`,` الجزائر`];
+    radioes_Name = [`الأمارات`,`القاهرة`,`السعودية`,` الجزائر`];
     radioes_Src = [
         `http://n04.radiojar.com/8s5u5tpdtwzuv?rj-ttl=5&rj-tok=AAABgtzNJMMAuQxTNcSNWkNUaw`,
         `https://stream.radiojar.com/4wqre23fytzuv`,
-        `https://webradio.tda.dz/Coran_64K.mp3`
+        `https://webradio.tda.dz/Coran_64K.mp3`,
+        `https://zayedquran.gov.ae/stream.php`,
     ];
     radio = 0;
 
